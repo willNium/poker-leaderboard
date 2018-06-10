@@ -4,7 +4,7 @@
  - ```git clone https://github.com/willNium/poker-leaderboard.git```
 
 ## Running the app
- - Requires mongo to be installed on the local machine.
+ - Requires mongo to be installed on the local machine (my local version is 3.2.1).
  - To install dependencies:
    - ```cd poker-leaderboard```
    - ```npm run client-install```
