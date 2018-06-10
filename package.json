@@ -1,0 +1,21 @@
+{
+  "name": "poker-leaderboard",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "nodemon -w server -i server/node_modules -w client -i client/node_modules --exec \"npx babel server -d lib/server\"",
+    "server-install": "cd server && npm i",
+    "client-install": "cd client && npm i",
+    "start-mongo": "mongod",
+    "start-server": "cd server && node index.js",
+    "start-client": "cd client && yarn start",
+    "start": "npm run start-mongo & npm run start-server & npm run start-client"
+  },
+  "author": "willNium",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.17.5"
+  }
+}

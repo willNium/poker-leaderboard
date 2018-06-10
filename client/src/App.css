@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.header-button-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  padding-top: 20px;
+}
+
+.App-header a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.App-header a:hover {
+  cursor: pointer;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.player-row {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding:10px 0;
+}
+
+.player-row .player-place {
+  width: 100px;
+}
+
+.player-row .player-name {
+  width: 600px;
+  text-align: left;
+}
+
+.player-row .player-winnings {
+  display: flex;
+}
+
+.leaderboard-table {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.leaderboard-table-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leaderboard-table-header h2:first-child {
+  padding-left: 70px;
+}
+
+.player-details-container {
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.player-details-name {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.player-details-winnings {
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
+}
+
+.player-details-winnings .total {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-details-winnings .latest {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-payout-container {
+  height: 300px;
+}
+
+.post-payout-container form {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.post-payout-container form input {
+  margin-left: 10px;
+  padding: 2px;
+}
+
+#button {
+  background-color: black;
+  color: white;
+  outline: none;
+  padding: 0 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+.create-player-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.create-player-form label {
+  padding: 20px 0;
+}
+.create-player-form label input {
+  margin-left: 10px;
+  padding: 2px;
+}
